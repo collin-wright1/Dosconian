@@ -5,3 +5,4 @@ image_speed = 0;
 leftNode = 1;
 midNode = 1;
 rightNode = 1;
+nodeTotal = 3;
