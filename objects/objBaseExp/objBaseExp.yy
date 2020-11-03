@@ -23,11 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objBaseBottom","path":"objects/objBaseBottom/objBaseBottom.yy",},"parent":{"name":"objBaseExp","path":"objects/objBaseExp/objBaseExp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objBaseTop","path":"objects/objBaseTop/objBaseTop.yy",},"parent":{"name":"objBaseExp","path":"objects/objBaseExp/objBaseExp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objBaseEye","path":"objects/objBaseEye/objBaseEye.yy",},"parent":{"name":"objBaseExp","path":"objects/objBaseExp/objBaseExp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

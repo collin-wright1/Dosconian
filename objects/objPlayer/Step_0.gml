@@ -49,16 +49,22 @@ move_wrap(true, true, 0);
 
 //Checks for fire input
 fire = keyboard_check_pressed(vk_space);
+if(cooldown > 0){
+	cooldown -= 1;	
+}
 
 if(fire){
-	bullet = instance_create_layer(x, y, "Player", objBullet);
-	bullet.speed = 10;
-	bullet.direction = image_angle + 90;
-	bullet.image_angle = image_angle;
-	bullet2 = instance_create_layer(x, y, "Player", objBullet);
-	bullet2.speed = 10;
-	bullet2.direction = image_angle - 90;
-	bullet2.image_angle = image_angle;
+	if(cooldown == 0){
+		bullet = instance_create_layer(x, y, "Player", objBullet);
+		bullet.speed = 10;
+		bullet.direction = image_angle + 90;
+		bullet.image_angle = image_angle;
+		bullet2 = instance_create_layer(x, y, "Player", objBullet);
+		bullet2.speed = 10;
+		bullet2.direction = image_angle - 90;
+		bullet2.image_angle = image_angle;
+		cooldown = 20;
+	}
 }
 
 //TESTING MECH DELETE LATER
