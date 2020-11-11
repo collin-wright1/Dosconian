@@ -3,5 +3,5 @@
 instance_destroy(other);
 
 if(open == 1){
-	instance_destroy(self);
+	instance_destroy();
 }

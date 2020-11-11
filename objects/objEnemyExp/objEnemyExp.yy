@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sprEnemyI",
-    "path": "sprites/sprEnemyI/sprEnemyI.yy",
+    "name": "sprEnemyExp",
+    "path": "sprites/sprEnemyExp/sprEnemyExp.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objEnemy",
-    "path": "objects/objEnemy/objEnemy.yy",
+    "name": "objExplosion",
+    "path": "objects/objExplosion/objExplosion.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,10 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"objEnemyI","path":"objects/objEnemyI/objEnemyI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objEnemyI","path":"objects/objEnemyI/objEnemyI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objEnemyI",
+  "name": "objEnemyExp",
   "tags": [],
   "resourceType": "GMObject",
 }
