@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 image_speed = 0.25;
-depth = -1;
+depth = -2;

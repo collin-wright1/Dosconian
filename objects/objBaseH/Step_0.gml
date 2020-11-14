@@ -14,8 +14,11 @@ if(shipInRange){
 		alarm_set(1, random_range(300, 500));
 	}
 	if(alarm[0] == -1){
-			alarm_set(0, random_range(100, 300));
-		}	
+		alarm_set(0, random_range(100, 300));
+	}
+	if(alarm[2] == -1){
+		alarm_set(2, random_range(500, 1000));
+	}
 }
 
 if(!instance_exists(eye)){

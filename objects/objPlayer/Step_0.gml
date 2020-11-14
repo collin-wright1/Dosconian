@@ -45,7 +45,7 @@ else if (keyLeft) {
 
 //moves player
 move_towards_point(x + 5*hsp, y + 5*vsp, spd);
-move_wrap(true, true, 0);
+move_wrap(true, true, -512);
 
 //Checks for fire input
 fire = keyboard_check_pressed(vk_space);
@@ -55,11 +55,11 @@ if(cooldown > 0){
 
 if(fire){
 	if(cooldown == 0){
-		bullet = instance_create_layer(x, y, "Player", objBullet);
+		bullet = instance_create_layer(x, y, layer, objBullet);
 		bullet.speed = 10;
 		bullet.direction = image_angle + 90;
 		bullet.image_angle = image_angle;
-		bullet2 = instance_create_layer(x, y, "Player", objBullet);
+		bullet2 = instance_create_layer(x, y, layer, objBullet);
 		bullet2.speed = 10;
 		bullet2.direction = image_angle - 90;
 		bullet2.image_angle = image_angle;
